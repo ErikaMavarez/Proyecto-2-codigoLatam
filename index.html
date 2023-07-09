@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+     
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+    <title>Erika Mavarez</title>
+
+<body>
+   <header>
+     <img src="img/fotologoga.jpg" alt="logo Gabriel Andre" class="logogabrielandre">
+       <nav class="navbar">
+        <div class="menu-icon" id="menu-icon">
+          <i class="fa fa-bars"></i>
+        </div>
+       <ul id= "menu" class= "menu active">
+          <li class= "menu-item"><a href="#inicio" class= "active">Indice</a></li>
+          <li class= "menu-item"><a href="#sobre-mi" class= "active">Sobre mi</a></li>
+          <li class= "menu-item"><a href="#proyectos" class= "active">Proyectos</a></li>
+          <li class= "menu-item"><a href="./Contacto.html" class= "active">Contacto</a></li>            
+       </ul>
+       </nav>  
+   </header>
+   <main>
+      <section id="inicio">
+         <h1>Inicio</h1>
+         <figure>
+           <img src="img/Foto personal.jpg" alt="Foto personal" class="circle">
+         </figure>
+         <article id="sobre-mi">
+            <h1>¡Hola! soy Erika...</h1>
+            <p>
+    Mi nombre es Erika Mavarez, actualmente estoy terminando un curso de desarrollo web y voy a seguir estudiando para se experta en html, css y Javascript, porque se pueden crear cosas maravillosas en la web.
+            </p>
+            <form>
+            <button onclick="location.href='./assets/HojadevidaErikaM.pdf'"><a href= "assets/HojadevidaErikaM.pdf" class= "btn" download= "HV.pd">Descargar CV</button>
+            </form>
+         </article>
+     </section>
+     <section id="proyectos">
+      <h1> Proyectos </h1>
+      <article>
+      <h2>Proyecto 1</h2>
+      <img src="./assets/Pc.jpg" alt="Proyecto 1">
+      <img src="./assets/Responsive.jpg" alt="Proyecto 1">
+      <img src="./assets/Responsive 1.jpg" alt="Proyecto 1">
+      <a href= "https://erikamavarez.github.io/repomav/">Proyecto1</a>
+      </article>
+     </section>
+     <section id= "contacto">
+        <article class= "fondo">
+           <h2>¡Hablemos!</h2>
+        </article>
+        <div class="erika">
+        </div>
+        <div class="enlaces-erika1">
+    <a href="https://erikamavarez.github.io/repomav/"><img id="image1"src="img/github.png" alt="Enlaces github" class="enlacesinfo github" onclick= "openImg()"></a>
+       </div>
+       <div class="enlaces-erika2">
+   <a href="mailto: erinir2013@gmail.com">
+   <img id= "image" src="img/mail.png" alt= "Enlaces mail" class="enlacesinfo mail" onclick= "openImg()"></a>
+       </div>
+       <div class="enlaces-erika3">
+   <a href="https://www.linkedin.com/mwlite/in/erika-mavarez-garc%C3%ADa-76a820279"><img src="img/linkedin.png" alt= "Enlaces Linkedin" class="enlacesinfo linkedin"></a>
+       </div>
+    </section>
+    <section id= "mensaje">
+       <h3>Mensajes</h3>
+       <form id="form"action= "" class="form">
+          <label for= "nombre">Nombre:</label>
+          <input type= "text" id= "nombre" name= "name" required>
+          
+          <label for= "email">Email:</label>
+          <input type= "email" id= "email" name= "email" required>
+          
+          <label for= "mensaje">Mensaje:</label>
+          <textarea id= "mensaje" name= "message" required></textarea>
+          
+          <button type= "submit">Enviar</button>
+          </form>
+          <a href="mailto: erinir2013@gmail.com" id= "opcion">mail</a>
+      </section>
+</main>
+<footer>
+  <div class="footer">
+  <p>Derechos de autor ©️ 2023 Erika Mavarez</p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
